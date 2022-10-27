@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700&family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    
+--SoftBlue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+--veryDarBlueMain: hsl(217, 54%, 11%);
+--veryDarkBlueCard : hsl(216, 50%, 16%);
+--veryDarkBlueLine : hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--veryDarBlueMain);
+    font-size: 18px;
+}
+
+.main-container{
+    border: 1px solid var(--White);
+    width: 330px;
+    height: 546px;
+    margin: 60px auto;
+    border-radius: 16px;
+    padding: 26px;
+}
+
+.image{
+    background-image: url(./images/image-equilibrium.jpg);
+    background-size: cover;
+    width: 280px;
+    height: 280px;
+    border-radius: 8px;
+    margin-bottom: 26px;
+}
+
+h1{
+    color: var(--White);
+    font-size: 1.3em;
+    margin-bottom: 18px;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
